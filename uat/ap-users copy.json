@@ -1,0 +1,43 @@
+[
+  {
+    "_comment": "AP slot 0 — adoption portal roles",
+    "roles": {
+      "aaaSupervisor": {
+        "username": "apkimsupervisor@adoptionportal.com.uat",
+        "passwordEnvVar": "AAA_SUPERVISOR_PASSWORD"
+      },
+      "aaaAssessor": {
+        "username": "apkimassessor@adoptionportal.com.uat",
+        "passwordEnvVar": "AAA_ASSESSOR_PASSWORD"
+      },
+      "preGiaOfficer": {
+        "username": "pregiaofficer10@adoptionportal.com",
+        "passwordEnvVar": "PRE_GIA_OFFICER_PASSWORD"
+      },
+       "preGiaSupervisor": {
+        "username": "pregiasupervisor5@adoptionportal.com",
+        "passwordEnvVar": "PRE_GIA_SUPERVISOR_PASSWORD"
+      },
+      "giaSupervisor": {
+        "username": "giasupervisor5@adoptionportal.com",
+        "passwordEnvVar": "GIA_SUPERVISOR_PASSWORD"
+      },
+      "giaOfficer": {
+        "username": "giaofficer10@adoptionportal.com",
+        "passwordEnvVar": "GIA_OFFICER_PASSWORD"
+      },
+      "cwAdmin": {
+        "username": "cwadmin1@msf.gov.sg.uat",
+        "passwordEnvVar": "CW_ADMIN_PASSWORD"
+      },
+      "mop_singpass_id": {
+        "username": "S7790684C",
+        "passwordEnvVar": "SINGPASS_PASSWORD"
+      },
+      "mop_singpass_id_1": {
+        "username": "S7790688F",
+        "passwordEnvVar": "SINGPASS_PASSWORD"
+      }
+    }
+  }
+]

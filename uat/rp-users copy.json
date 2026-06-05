@@ -1,0 +1,19 @@
+[
+  {
+    "_comment": "RP slot 0 — all roles with suffix _01",
+    "roles": {
+      "cso_officer": {
+        "username": "tad_cso_officer_01@msf.gov.sg.uat",
+        "passwordEnvVar": "ES_STAFF_PASSWORD"
+      },
+      "cso_supervisor": {
+        "username": "tad_cso_supervisor_01@msf.gov.sg.uat",
+        "passwordEnvVar": "ES_SUPERVISOR_PASSWORD"
+      },
+      "cleo_officer": {
+        "username": "tad_cleo_officer_01@msf.gov.sg.uat",
+        "passwordEnvVar": "ES_SUPERVISOR_PASSWORD"
+      }
+    }
+  }
+]

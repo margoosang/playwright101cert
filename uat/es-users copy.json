@@ -1,0 +1,41 @@
+[
+  {
+    "_comment": "ES slot 0 — all roles with suffix _01",
+    "roles": {
+      "staff": {
+        "username": "tad_es_sge_staff_01@salesforce.com.uat",
+        "passwordEnvVar": "ES_STAFF_PASSWORD"
+      },
+      "supervisor": {
+        "username": "sgesupervsior6@salesforce.com.uat",
+        "passwordEnvVar": "ES_SUPERVISOR_PASSWORD"
+      }
+    }
+  },
+  {
+    "_comment": "ES slot 1 — all roles with suffix _02",
+    "roles": {
+      "staff": {
+        "username": "tad_es_sge_staff_02@salesforce.com.uat",
+        "passwordEnvVar": "ES_STAFF_PASSWORD2"
+      },
+      "supervisor": {
+        "username": "sgesupervsior6@salesforce.com.uat",
+        "passwordEnvVar": "ES_SUPERVISOR_PASSWORD"
+      }
+    }
+  },
+  {
+    "_comment": "ES slot 2 — all roles with suffix _03",
+    "roles": {
+      "staff": {
+        "username": "tad_es_sge_staff_03@salesforce.com.uat",
+        "passwordEnvVar": "ES_STAFF_PASSWORD"
+      },
+      "supervisor": {
+        "username": "sgesupervsior6@salesforce.com.uat",
+        "passwordEnvVar": "ES_SUPERVISOR_PASSWORD"
+      }
+    }
+  }
+]
