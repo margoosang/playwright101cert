@@ -1,16 +1,19 @@
 import { test, expect } from "@playwright/test";
 
-test('Test Scenario 1', async ({ page }) => {
-    await page.goto("https://www.testmuai.com/selenium-playground/");
-    await page.getByRole("link", { name: "Simple Form Demo" }).click();
-    await expect(page).toHaveURL(/simple-form-demo/);
+test("Test Scenario 1", async ({ page }) => {
+  await page.goto("https://www.testmuai.com/selenium-playground/");
 
-    const msg = "Welcome to TestMu AI";
+  await page.getByRole("link", { name: "Simple Form Demo" }).click();
 
-    await page.getByRole('textbox', { name: 'Please enter your Message' }).fill(msg);
-    await page.getByRole('button', { name: 'Get Checked Value' }).click();
-    await page.waitForTimeout(1000);
+  await expect(page).toHaveURL(/simple-form-demo/);
 
-    const text = await page.locator('#message').first().textContent();
-    expect(text?.trim()).toBe(msg);
+  const msg = "Welcome to TestMu AI";
+
+  await page
+    .getByRole("textbox", { name: "Please enter your Message" })
+    .fill(msg);
+
+  await page.getByRole("button", { name: "Get Checked Value" }).click();
+
+  await expect(page.locator("#message")).toHaveText(msg);
 });
